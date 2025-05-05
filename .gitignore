@@ -40,3 +40,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Ignorera stora bildfiler för att kunna ladda upp till GitHub
+/public/images/temperature.jpg
