@@ -1,1 +1,16 @@
-<h2>Startsida</h2>
+<div class="img-container">
+    <img [src]="homeImage" alt="Enhetsomvandlaren" class="home-image">
+    <div class="overlay"></div>
+    <div class="heading"><h2>Välkommen till Enhetsomvandlaren!</h2></div>
+</div>
+<p>Detta är en enkel och responsiv Angular-webbplats där du kan konvertera mellan olika enheter såsom temperatur och
+    längd. Här hittar du även information om hur webbplatsen är uppbyggd och vad jag lärt mig av uppgiften.</p>
+
+<section class="links">
+    <div class="btn"><a routerLink="/converter">Gå till konverteringssidan</a></div>
+    <div class="btn"><a routerLink="/about">Läs om uppgiften</a></div>
+</section>
+
+<div class="info-box">
+<p>Visste du att 1 fot är exakt 0,3048 meter?</p>
+</div>
