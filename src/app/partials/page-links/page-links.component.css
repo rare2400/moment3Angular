@@ -1,0 +1,36 @@
+.links {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.btn {
+    background-color: #07401c;
+    color: #fff;
+    border: none;
+    padding: 0.8em;
+    width: 85%;
+    margin: 1rem auto;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn a {
+    font-size: 1em;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #020202;
+}
+
+@media (min-width: 768px) {
+    .btn {
+        padding: 1em;
+        width: 60%;
+    }
+
+    .btn a {
+        font-size: 1.3em;
+    }
+}
