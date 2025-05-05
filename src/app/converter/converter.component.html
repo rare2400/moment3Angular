@@ -6,7 +6,10 @@
     <div>
         <div class="input">
             <label for="convertFrom">Skriv in ett tal att konvertera:</label>
-            <input type="number" id="convertFrom" [(ngModel)]="inputValue">
+            <input type="number" id="convertFrom" [(ngModel)]="inputValue" required #inputField="ngModel">
+            <div class="error" *ngIf="inputField.invalid && inputField.touched">
+                Du måste skriva in ett giltigt tal.
+            </div>
         </div>
         <p>Välj enhet att konvertera mellan:</p>
         <div class="btn-row">
