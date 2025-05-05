@@ -1,1 +1,34 @@
 <h2>Om uppgiften</h2>
+<section>
+    <p>Jag började utvecklingen av uppgiften med att skapa de tre undersidor som skulle ingå: en startsida, en sida för
+        konvertering samt denna sida där jag beskriver hur arbetet har gått. Därefter satte jag upp routes för samtliga
+        sidor och skapade länkar så att de kunde nås via navigationsmenyn.</p>
+    <p>Header och footer är de första komponenterna som skapades, eftersom de visas på alla sidor. Navigeringsmenyn
+        placeras
+        direkt i header-komponenten även om jag tiill en början övervägde att lägga den i en egen komponent. Men jag kom
+        snabbt fram till att det skulle bli smidigare och enklare att göra menyn direkt i headern. Efter hand läggs även
+        generell CSS till som i styles.css-filen med body-inställningar, h1, h2 och en gemensam container som finns på
+        undersidorna.</p>
+    <p>När grunden på webbplatsen var klar började arbetet med konverteringssidan. Den innehåller ett input-fält som tar
+        emot ett tal och konverterar det mellan olika enheter - från meter till fot och Celsius till Fahrenheit, och
+        vice
+        versa. Denna delen funderade jag lite på huruvida den skulle utformas med ett select-element eller separata
+        knappar.
+        Slutresultatet blev att ha olika knappar som kopplas till var och en av funktionerna som konverterar talet från
+        input-fältet i konverteringskomponentens TypeScript-fil. Resultatet visas med databindning och formateras till
+        två
+        decimaler med hjälp av Angulars decimalPipe från CommonModule. En validering lades även in i HTML-filen som ger
+        användaren ett meddelande om att ett tal måste skrivas in i input-fältet.</p>
+    <p>På startsidan lade jag till med en header-bild, länk-knappar till undersidorna och en liten “visste du att”.
+        Bilden
+        hämtas in med hjälp av databindning via TypeScript och skrivs sedan ut i HTML-filen. Bildfilen visade sig vara
+        för
+        stor för Git att hantera, så jag justerade storleken på den för att kunna inkludera den utan problem. Därefter
+        stylas sidan med stora gröna knappar, placering av rubrik på bilden etcetera. </p>
+    <p>Sammanfattningsvis så har detta varit en rolig och lärorik uppgift att genomföra. Det har varit givande att
+        uppleva
+        att arbetet kan gå lite snabbare när man utvecklar en webbplats. Även om uppgiften var rätt lättsam utifrån
+        TypeScript-perspektiv så har det varit nyttigt att kunna komma in i hur sidor struktureras upp i komponenter,
+        till
+        exempel hur header/navmeny och footer byggs upp och återanvänds.</p>
+</section>
