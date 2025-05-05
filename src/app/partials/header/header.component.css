@@ -39,3 +39,8 @@ nav {
         }
     }
 }
+
+.active {
+    background-color: #ffffff88;
+    border-radius: 5px;
+}
