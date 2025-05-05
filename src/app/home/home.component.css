@@ -52,7 +52,13 @@ img {
     transform: translate(-50%, -50%);
     color: white;
     text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.319);
-    text-align: center;
+    line-height: 1.8em;
+}
+
+.ingress-text {
+    padding: 0.5em 1em;
+    margin: 0 auto;
+    max-width: 650px;
 }
 
 .info-box {
