@@ -41,15 +41,16 @@ ng build
 - **Git**: Versionshantering av koden
 
 ## Struktur
-| Mapp/fil                 | Beskrivning                                          |
-| -----------------------  | -----------------------------------------------------|
-| `src/app/about`          | Sida som beskriver arbetsprocessen                   |
-| `src/app/converter`      | Komponent med konverteringslogik och formulär        |
-| `src/app/home`           | Startsida med bild och länkar till övriga sidor      |
-| `src/app/partials/footer`| Footer-komponent med sidfot                          |
-| `src/app/partials/header`| Header-komponent med navigeringsmeny                 |
-| `src/app/app.routes.ts`  | Routing för undersidorna                             |
-| `src/styles.css`         | Gemensam styling för hela webbplatsen/applikationen  |
+| Mapp/fil                     | Beskrivning                                          |
+| ---------------------------- | -----------------------------------------------------|
+| `src/app/about`              | Sida som beskriver arbetsprocessen                   |
+| `src/app/converter`          | Komponent med konverteringslogik och formulär        |
+| `src/app/home`               | Startsida med bild och länkar till övriga sidor      |
+| `src/app/partials/footer`    | Footer-komponent med sidfot                          |
+| `src/app/partials/header`    | Header-komponent med navigeringsmeny                 |
+| `src/app/partials/page-links`| Komponent med länkar till undersidorna               |
+| `src/app/app.routes.ts`      | Routing för undersidorna                             |
+| `src/styles.css`             | Gemensam styling för hela webbplatsen/applikationen  |
 
 ## Reflektioner
 Denna uppgift har varit ett bra sätt att lära sig om Angular, särskilt vad gäller strukturering av komponenter, routing och databindning. Jag har också fått en bättre känsla för hur en applikation kan delas upp i återanvändbara delar samt hur viktigt det är med bra grundstruktur och styling från start.
